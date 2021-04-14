@@ -19,6 +19,9 @@ variables:
   #  Logic App
   logicAppName: 'la-wus-$(projectName)-$(suffix)'
 
+  # Application Insights
+  applicationInsightsName: 'ai-$(projectName)$(suffix)'
+
   # API Connections
   officeConnectionName: 'la-wus-$(projectName)-connection-office365'
 
